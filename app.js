@@ -14,7 +14,7 @@ app.use(express.static("public"));
 
 // Conexion BDmongoose
 const MONGO_URL =
-  "mongodb://127.0.0.1:27017/todoList";
+  "mongodb+srv://ssfuentes99:11perritos@cluster0.lzaad5z.mongodb.net/todoList";
 
 
   mongoose.set("strictQuery", true);
